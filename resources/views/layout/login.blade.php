@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="{{asset('admin/img/favicon.png')}}" rel="icon">
-  <link href="{{asset('admin/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
+  <link href="{{asset('admin/img/alaziziyah.jpeg')}}" rel="icon">
+  <link href="{{asset('admin/img/alaziziyah.jpeg')}}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.gstatic.com" rel="preconnect">
@@ -50,7 +50,7 @@
 
               <div class="d-flex justify-content-center py-4">
                 <a href="index.html" class="logo d-flex align-items-center w-auto">
-                  <img src="admin/img/logo.png" alt="">
+                  <img src="admin/img/alaziziyah.jpeg" alt="">
                   <span class="d-none d-lg-block">Al - Aziziyah</span>
                 </a>
               </div><!-- End Logo -->
@@ -80,7 +80,7 @@
                       <div class="invalid-feedback">Masukan Password!</div>
                     </div>
                     <div class="col-12">
-                      <button class="btn btn-primary w-100" type="submit">Login</button>
+                      <button class="btn btn-success w-100" type="submit">Login</button>
                     </div>
                     <div class="col-12">
                       <p class="small mb-0">/*Jika Lupa email dan password silahkan hubungi pengurus</p>

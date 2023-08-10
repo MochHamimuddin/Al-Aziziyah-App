@@ -28,7 +28,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link collapsed" href="#">
+        <a class="nav-link collapsed" href="/datakesehatan">
           <i class="bi bi-patch-plus"></i>
           <span>Data Kesehatan</span>
         </a>
@@ -39,17 +39,17 @@
         </a>
         <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
           <li>
-            <a href="#">
+            <a href="/izinkeluar">
               <i class="bi bi-circle"></i><span>Izin Keluar</span>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="/izinsakit">
               <i class="bi bi-circle"></i><span>Izin Sakit</span>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="/izinpulang">
               <i class="bi bi-circle"></i><span>Izin Pulang</span>
             </a>
           </li>
@@ -62,12 +62,12 @@
         </a>
         <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
           <li>
-            <a href="forms-elements.html">
+            <a href="/datapembayaran">
               <i class="bi bi-circle"></i><span>Data Pembayaran</span>
             </a>
           </li>
           <li>
-            <a href="forms-layouts.html">
+            <a href="/riwayatpembayaran">
               <i class="bi bi-circle"></i><span>Riwayat Pembayaran</span>
             </a>
           </li>
@@ -75,7 +75,7 @@
       </li><!-- End Forms Nav -->
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="#">
+        <a class="nav-link collapsed" href="/">
           <i class="bi bi-box-arrow-in-left"></i>
           <span>Log out</span>
         </a>

@@ -31,5 +31,25 @@ Route::get('/datakamar', function () {
 Route::get('/datakelas', function () {
     return view('admin.datakelas');
 });
+Route::get('/datakesehatan', function () {
+    return view('admin.datakesehatan');
+});
+Route::get('/izinkeluar', function () {
+    return view('admin.izinkeluar');
+});
+Route::get('/izinpulang', function () {
+    return view('admin.izinpulang');
+});
+
+Route::get('/izinsakit', function () {
+    return view('admin.izinsakit');
+});
+
+Route::get('/datapembayaran', function () {
+    return view('admin.datapembayaran');
+});
+Route::get('/riwayatpembayaran', function () {
+    return view('admin.riwayatpembayaran');
+});
 
 

@@ -1,11 +1,11 @@
 @extends('admin.index')
 @section('content')
 <div class="pagetitle">
-      <h1>Data Kelas</h1>
+      <h1>Data Izin Keluar</h1>
       <nav>
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="/dashboard">Home</a></li>
-          <li class="breadcrumb-item">Data Kelas</li>
+          <li class="breadcrumb-item">Data Izin Keluar</li>
         </ol>
       </nav>
     </div>
@@ -15,7 +15,7 @@
           <div class="card">
             <div class="card-body">
             <div class="d-flex justify-content-between align-items-right">                         
-              <h5 class="card-title">Data Kelas</h5>                                    
+              <h5 class="card-title">Data Izin Keluar</h5>                                    
                 <a href="#" type="button" class="btn btn-primary btn-sm custom-btn"><i class="bi bi-box-arrow-in-up me-1"></i>Upload Data</a>                    
               </div>  
                 <!-- Table with stripped rows -->        
@@ -24,8 +24,10 @@
                   <tr>
                     <th scope="col">No</th>
                     <th scope="col">Kode</th>
-                    <th scope="col">Nama Kelas</th>
-                    <th scope="col">Kuota</th>
+                    <th scope="col">Nama Santri</th>
+                    <th scope="col">Tanggal Keluar</th>
+                    <th scope="col">Tanggal Masuk</th>
+                    <th scope="col">Keterangan</th>
                     <th scope="col">Status</th>
                     <th scope="col">Action</th>
                   </tr>
