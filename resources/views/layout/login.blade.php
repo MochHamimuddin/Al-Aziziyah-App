@@ -63,20 +63,20 @@
                     <h5 class="card-title text-center pb-0 fs-4">Login Santri</h5>
                   </div>
 
-                  <form class="row g-3 needs-validation" novalidate>
-
+                  <form class="row g-3 needs-validation" id="loginForm" action="{{ route('postLogin') }}" method="POST">
+                    @csrf
                     <div class="col-12">
-                      <label for="yourUsername" class="form-label">Email</label>
+                      <label for="nik" class="form-label">Nik</label>
                       <div class="input-group has-validation">
-                        <span class="input-group-text" id="inputGroupPrepend">@</span>
-                        <input type="text" name="username" class="form-control" id="yourUsername" required>
-                        <div class="invalid-feedback">Masukan Email.</div>
+                        <span class="input-group-text" id="inputGroupPrepend">NIK</span>
+                        <input type="text" name="nik" class="form-control" id="nik" required>
+                        <div class="invalid-feedback">Masukan Nik.</div>
                       </div>
                     </div>
 
                     <div class="col-12">
-                      <label for="yourPassword" class="form-label">Password</label>
-                      <input type="password" name="password" class="form-control" id="yourPassword" required>
+                      <label for="password" class="form-label">Password</label>
+                      <input type="password" name="password" class="form-control" id="password" required>
                       <div class="invalid-feedback">Masukan Password!</div>
                     </div>
                     <div class="col-12">

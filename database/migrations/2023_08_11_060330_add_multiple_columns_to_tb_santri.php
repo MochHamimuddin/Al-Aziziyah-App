@@ -11,13 +11,9 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('users', function (Blueprint $table) {
-            $table->id();
-            $table->string('name');
-            $table->string('nik')->unique();
-            $table->string('role')->unique();
+        Schema::table('tb_santri', function (Blueprint $table) {
+            //
             $table->timestamp('nik_verified_at')->nullable();
-            $table->string('password');
             $table->rememberToken();
             $table->timestamps();
         });
@@ -28,6 +24,8 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('users');
+        Schema::table('tb_santri', function (Blueprint $table) {
+            //
+        });
     }
 };

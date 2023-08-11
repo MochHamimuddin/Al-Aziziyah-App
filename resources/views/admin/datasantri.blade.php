@@ -22,11 +22,16 @@
               <table class="table datatable">
                 <thead>
                   <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Name</th>
-                    <th scope="col">Position</th>
-                    <th scope="col">Age</th>
-                    <th scope="col">Start Date</th>
+                    <th scope="col">No</th>
+                    <th scope="col">ID PPS</th>
+                    <th scope="col">Nama</th>
+                    <th scope="col">NIK</th>
+                    <th scope="col">Domisili</th>
+                    <th scope="col">Alamat</th>
+                    <th scope="col">Orangtua</th>
+                    <th scope="col">Hp</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Action</th>
                   </tr>
                 </thead>
                 <tbody>

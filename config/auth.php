@@ -40,8 +40,21 @@ return [
             'driver' => 'session',
             'provider' => 'users',
         ],
+        'Api' => [
+            'driver' => 'token',
+            'provider' => 'users',
+            'hash' => false,
+        ],
+        'santri' => [
+            'driver' => 'session',
+            'provider' => 'santris',
+        ],
+        'user' => [
+            'driver' => 'session',
+            'provider' => 'users',
+        ],
+        
     ],
-
     /*
     |--------------------------------------------------------------------------
     | User Providers
@@ -63,6 +76,10 @@ return [
         'users' => [
             'driver' => 'eloquent',
             'model' => App\Models\User::class,
+        ],
+        'santris' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\Santri::class,
         ],
 
         // 'users' => [
